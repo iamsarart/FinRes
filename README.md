@@ -23,3 +23,11 @@ Then, it initializes an audio input named m_audioInput and an audio source named
 An audio recorder is initialized as m_audioRecorder with its recording state connected to the handleStateChanged slot. A button called startRecordingButton is added to the widget interface which calls the startRecording function when clicked. The audio recorder's output file location is set to be a local file named "recordedFile.wav". 
 
 In short, this code sets up a microphone input, plots a graph representing audio data, starts an audio recording when a button is clicked, and saves the recording to a local file.
+
+
+``` If you use Mac, Please follow these steps to run and build the app ```
+
+1) Install Xcode
+2) Install Qt 6.6.x
+3) Open CMakeList.txt via QtCreator and set by macOS Desktop Kit Qt 6.6.1 for macOS.
+4) Run CMake and Build!
